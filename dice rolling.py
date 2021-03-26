@@ -104,14 +104,14 @@ def sum_up(list_sum):
     return total
 
 def get_name():
-    name = input("Enter your first name: ")
+    name = input("Enter your name: ")
     return name
 
-def compare_scores(score1, score2):
-    if score1 > score2:
-        print("You win")
+def compare_scores():
+    if player1 > player2:
+        print("Player 1 wins")
     else:
-        print("The other player wins")
+        print("Player 2 wins")
 
 def time_stamp():
     game_start = datetime.today().strftime('%b-%d-%Y')
@@ -130,7 +130,14 @@ values = mydict.values()
 
 values_list = list(values)
 
-add_list = sum(values_list)
+
+player1 = values_list[0]
+
+player2 = values_list[1]
+
+
+
+#add_list = sum(values_list)
 
 
 time_stamp()
@@ -138,8 +145,8 @@ time_stamp()
 
 print(mydict)
 print(values_list)
-print(add_list)
-
+#print(add_list)
+compare_scores()
 
 
 
