@@ -12,3 +12,13 @@ README
 	
 	
 	I use built-in Python functions. I imported random and datetime. I used python 3.9 
+	
+	**Features**
+	
+	- Created a dictionary and list, populate it with several values, retrieve at least one value, 
+	and use it in your program
+	
+	- I made more than 3 functions and called on two of them.
+	
+	- Calculated and displayed data based on an external factor. 
+	Got the current date, and display how many days remaining until Easter)
