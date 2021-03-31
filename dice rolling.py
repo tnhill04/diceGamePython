@@ -61,7 +61,7 @@ player1 = values_list[0]
 player2 = values_list[1]
 
 
-
+print()  # added a blank line to more some separation
 print(mydict)
 compare_scores(player1, player2)
 time_stamp()
