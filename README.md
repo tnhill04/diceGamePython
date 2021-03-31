@@ -1,10 +1,18 @@
 README
 
-	This is my random dice game. When you start the program, player one enters their name clicks enter on the keyboard
-	It shows player one's six random dice roll. Then it asks for player two's name. Enter player two's name and click
-	enter. Next it shows player two's six random dice roll. Finally it shows each players dice roll's added togther and
-	tells the players who won. 
+	This is my random dice game. 
 	
+	**Step one
+	When you run the program, player one enters their name clicks enter on the keyboard
+	It shows player one's six random dice roll. 
+	
+	**Step two**
+	Then it asks for player two's name. Enter player two's name and click
+	enter. Next it shows player two's six random dice roll.
+	
+	**Step three**
+	Finally it shows each players dice roll's added togther and
+	tells the players who won. 
 	
 	**Bonus**
 	
