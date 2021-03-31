@@ -2,7 +2,7 @@ import random
 import datetime
 
 
-#This function generates six random numbers
+#  This function generates six random numbers
 def random_number(num):
     list_random = list()
     while num < 6:
@@ -12,12 +12,12 @@ def random_number(num):
     print(list_random)
     return list_random
 
-# This function adds the six numbers together
+#  This function adds the six numbers together
 def sum_up(list_sum):
     total = 0
     for item in list_sum:
         total += item
-        #total = toal + item Another way to do line 103
+        #  total = toal + item Another way to do line 103
     return total
 
 # This function takes the player's name
