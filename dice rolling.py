@@ -8,7 +8,8 @@ def random_number(num):
     while num < 6:
         list_random.append(random.randint(1, 6))
         num += 1
-        print(list_random)
+
+    print(list_random)
     return list_random
 
 # This function adds the six numbers together
