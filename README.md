@@ -4,6 +4,8 @@ README
 	
 	
 	**Steps to run my python file**
+
+    **ONE WAY**
 	
 		- Go to python.org and download python 3.9 (it is free)
 		
@@ -16,6 +18,13 @@ README
             (An example would be to enter in "cd desktop") This will point you to desktop
 		
 		- Next type in "python dice.py" click enter
+
+
+    **ANOTHER WAY**
+
+        - git clone https://github.com/tnhill04/diceGamePython.git
+        - cd diceGamePython
+        - python dice.py
 		
 	
 	**Steps on how the file works**
