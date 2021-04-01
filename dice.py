@@ -17,7 +17,7 @@ def sum_up(list_sum):
     total = 0
     for item in list_sum:
         total += item
-        #  total = toal + item Another way to do line 103
+        #  total = total + item Another way to do line 103
     return total
 
 # This function takes the player's name
@@ -36,8 +36,10 @@ def compare_scores(p1, p2):
 def time_stamp():
     today = datetime.date.today()
     future = datetime.date(2021, 4, 4)
+    b_day = datetime.date(2021, 4, 16)
+    birth = b_day - today
     diff = future - today
-    print(diff.days, "days til Easter! Happy Easter and Happy Coding")
+    print(diff.days, "days til Easter! Happy Easter and", birth.days, "til my Birthday!", "Happy Coding")
     return diff.days
 
 # This is the dictionary where the "name" and sum of the random numbers are stored
