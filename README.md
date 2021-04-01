@@ -1,6 +1,12 @@
 README
 
-	This is my random dice game. 
+                                            **RANDOM DICE GAME**
+
+
+    This is my random dice game. When coming up with this project I wanted something that would 
+    be challenging but fun to learn. The objective of the game is to get a higher score than
+    your opponent. All you have to do in enter your name when prompted and pray you win.
+    Good luck to you that play.
 	
 	
 	**Steps to run my python file**
